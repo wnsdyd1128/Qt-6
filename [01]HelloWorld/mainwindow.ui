@@ -17,26 +17,26 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>185</x>
-      <y>179</y>
-      <width>281</width>
-      <height>121</height>
+      <x>80</x>
+      <y>50</y>
+      <width>481</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
      <string>Hello World!!</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>25</height>
-    </rect>
-   </property>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>381</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

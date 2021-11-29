@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
-
+#include <QLabel>
 int main(int argc, char *argv[])
 {
   QApplication a(argc, argv);
@@ -17,6 +17,9 @@ int main(int argc, char *argv[])
           break;
         }
     }
+//  QLabel myLabel;
+//  myLabel.setText("Hello World!");
+//  myLabel.show();
   MainWindow w;
   w.show();
   return a.exec();
